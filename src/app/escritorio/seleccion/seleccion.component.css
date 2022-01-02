@@ -1,0 +1,21 @@
+.seleccion {
+    padding: 10px 10%;  
+}
+
+ 
+
+.lista ,.sel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.sel{
+    border-right: 4px solid #f0f0f0;
+}
+
+
+.lista>img{
+    margin-right: 5px;
+}

@@ -1,0 +1,65 @@
+.navbar-cl {
+  background-color: #f6423e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sosten {
+  padding: 10px 0;
+}
+.logo {
+  margin: 0 15px 0 0;
+}
+.buscador {
+  border-radius: 4px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  padding: 4px 8px;
+}
+
+.b-inp {
+  font-size: 14px;
+  width: auto;
+  margin: 0 30px 0 0;
+}
+
+.b-img {
+  width: 24px;
+  height: 24px;
+}
+
+.ubicacion {
+  margin: 0 10px;
+}
+
+.u-img-01 {
+  padding: 0 5px;
+}
+.u-selecciona {
+  padding: 0 10px;
+  color: #ffff;
+}
+.u-selecciona > span:nth-child(1) {
+  font-size: 12px;
+}
+
+.u-selecciona > span:nth-child(2) {
+  font-size: 14px;
+}
+
+.u-img-02 {
+  padding: 0 5px;
+}
+.datos {
+  margin: 4px 5px;
+}
+.datos > span {
+  border-radius: 100%;
+  background-color: #000000;
+  color: #fff;
+  padding: 2px;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}

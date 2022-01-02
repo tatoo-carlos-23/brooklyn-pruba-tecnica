@@ -1,0 +1,13 @@
+<div class="seleccion fila">
+     
+        <div class="sel">
+            <img src="../../../assets/img/MDI - shape-outline.svg" alt="">
+            <label>Todas las categorias</label>
+            <img src="../../../assets/img/vuesax-linear-arrow-circle-right.svg" alt="">
+        </div>
+        <div class="lista" *ngFor="let x of listas">
+            <img src="../../../assets/img/{{x.nombre}}" alt="" class="fl">
+            <span class="fr">{{x.descripcion}}</span>
+        </div>
+   
+</div>
