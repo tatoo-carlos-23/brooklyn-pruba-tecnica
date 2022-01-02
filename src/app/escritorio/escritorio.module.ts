@@ -9,6 +9,8 @@ import { AccesoriosComponent } from './accesorios/accesorios.component';
 import { SoporteComponent } from './soporte/soporte.component';
 import { InteresesComponent } from './intereses/intereses.component';
 import { OfertasComponent } from './ofertas/ofertas.component';
+import { NovedadesComponent } from './novedades/novedades.component';
+import { TiendasOficialesComponent } from './tiendas-oficiales/tiendas-oficiales.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { OfertasComponent } from './ofertas/ofertas.component';
     AccesoriosComponent,
     SoporteComponent,
     InteresesComponent,
-    OfertasComponent
+    OfertasComponent,
+    NovedadesComponent,
+    TiendasOficialesComponent
   ],
   imports: [
     CommonModule,

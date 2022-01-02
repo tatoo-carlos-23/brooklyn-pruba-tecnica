@@ -40,6 +40,7 @@
 .descron {
   font-size: 12px;
   color: #2a2a2a;
+  text-align: justify;
 }
 
 .eng {
@@ -50,11 +51,36 @@
 }
 
 @media (max-width: 700px) {
+  .items-ofertas {
+    margin-bottom: 0 !important;
+    padding: 0;
+    width: 35%;
+  }
   .tpi {
     font-size: 18px;
     font-weight: bold;
-    margin: 10px 0;
-    padding-top: 30px;
+    margin: 0 0 0 0; 
+  }
+
+  .oferdiv{
+    margin: 25px 0 0 0;
+  }
+
+  .pf {
+    font-size: 16px;
+  }
+  
+  .dsct {
+    font-size: 12px; 
+    padding-left: 8px;
+  }
+
+  .descron {
+    font-size: 12px; 
+  }
+
+  .eng {
+    font-size: 12px; 
   }
   
 }

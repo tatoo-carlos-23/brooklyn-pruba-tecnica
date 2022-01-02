@@ -1,0 +1,17 @@
+<h2>Tiendas oficiales</h2>
+<div class="to w-100">
+    <div class="item-to fila w-100">
+        <div class="lista-i-to columna " *ngFor="let x of DATOS">
+            <img src="../../../assets/img/{{x.logo}}" alt="IMAGEN 001" class="w-100 img-logo">
+            <div class="datos-to w-100 columna centro">
+                <div class="centro fila IMG-S bbx">
+                    <img [src]="x.img" alt="" class="img-to img1  bbx">
+                    <img [src]="x.img" alt="" class="img-to img2  bbx">
+                </div>
+                <div class="ver-tienda centro bbx w-100">
+                    <span>Ver tienda</span>
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>

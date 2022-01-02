@@ -1,5 +1,23 @@
-<div class="intereses w-100 columna">
+<div class="oferdiv w-100 columna">
     <label class="tpi">OFERTAS BROOKLYN</label>
+    <div class="w-100 fila bbx iots">
+        <div class="items-ofertas columna" *ngFor=" let x of DATOS">
+            <img src="../../../assets/img/{{x.img}}" alt="">
+            <div class="datos-of columna">
+                <span class="pi">$ {{x.precio_inicial}}</span>
+                <label>
+                    <span class="fl pf">$ {{x.precio_final}}</span>
+                    <span class="fl dsct">{{x.descuento}}% DCTO</span>
+                </label>
+                <label class="descron">{{x.descripcion}}</label>
+                <span class="eng">{{x.tipo_envio}}</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="oferdiv w-100 columna">
+    <label class="tpi">LO MAS VENDIDO</label>
     <div class="w-100 fila bbx iots">
         <div class="items-ofertas columna" *ngFor=" let x of DATOS">
             <img src="../../../assets/img/{{x.img}}" alt="">
