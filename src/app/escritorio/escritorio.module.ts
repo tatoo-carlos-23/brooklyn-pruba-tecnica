@@ -7,6 +7,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SeleccionComponent } from './seleccion/seleccion.component';
 import { AccesoriosComponent } from './accesorios/accesorios.component';
 import { SoporteComponent } from './soporte/soporte.component';
+import { InteresesComponent } from './intereses/intereses.component';
+import { OfertasComponent } from './ofertas/ofertas.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { SoporteComponent } from './soporte/soporte.component';
     NavbarComponent,
     SeleccionComponent,
     AccesoriosComponent,
-    SoporteComponent
+    SoporteComponent,
+    InteresesComponent,
+    OfertasComponent
   ],
   imports: [
     CommonModule,

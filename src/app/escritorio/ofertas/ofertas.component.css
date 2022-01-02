@@ -1,0 +1,60 @@
+.tpi {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.iots {
+  overflow-x: scroll;
+}
+
+.datos-of {
+  margin-top: 25px;
+}
+
+.items-ofertas {
+  margin: 15px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.pi {
+  font-size: 14px;
+  text-decoration: line-through;
+  color: #6666;
+}
+
+.pf {
+  font-size: 28px;
+}
+
+.dsct {
+  font-size: 14px;
+  color: #ff342e;
+  font-weight: bolder;
+  padding-left: 10px;
+}
+
+.descron {
+  font-size: 12px;
+  color: #2a2a2a;
+}
+
+.eng {
+  font-size: 14px;
+  color: #0089d0;
+  margin: 10px 0;
+  font-weight: bolder;
+}
+
+@media (max-width: 700px) {
+  .tpi {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    padding-top: 30px;
+  }
+  
+}

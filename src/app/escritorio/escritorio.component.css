@@ -1,0 +1,9 @@
+.cuerpo {
+  padding: 0 10% 0 10%;
+}
+
+@media (max-width: 700px) {
+  .cuerpo {
+    padding: 0 2% 0 2%; 
+  }
+}

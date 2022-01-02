@@ -1,0 +1,28 @@
+.soporte {
+  padding: 10px 10%;
+  box-sizing: border-box;
+  background: #ebebeb 0% 0% no-repeat padding-box;
+}
+
+.items-soporte {
+  width: 25%;
+}
+
+.is-img{
+    padding: 0 10px 0 10px;
+}
+
+.is-datos > label:nth-child(1) {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.is-datos > label:nth-child(2) {
+  font-size: 12px;
+}
+
+@media (max-width: 700px){
+  .soporte {
+    display: none;
+  }
+}

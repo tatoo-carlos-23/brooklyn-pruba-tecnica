@@ -1,1 +1,24 @@
-<p>accesorios works!</p>
+<div class="w-100">
+    <div class="accesorios w-100 fila">
+        <div class="centro direccion-l">
+            <img src="../../../assets/img/Grupo 905.svg" alt="" class="cp">
+        </div>
+        <!-- CONTENIDO -->
+        <div class="contenido columna ahorra">
+            <h1>Ahorra en los articulos más buscados</h1>
+            <h4>Compra las ultimas tendencias y los items del momento</h4>
+            <button class="compra none cp">Compra ahora -></button>
+        </div> 
+
+        <div class="contenido acce-item centro columna" *ngFor="let x of LISTA_IMAGENES" [style]="x.color">
+            <img src="../../../assets/img/{{x.ruta}}" alt="">
+            <h3>{{x.accesorio}} -></h3>
+        </div>
+        
+        <!-- CONTENIDO -->
+        <div class="centro direccion-r">
+            <img src="../../../assets/img/Grupo 1536.svg" alt="" class="cp">
+        </div>
+
+    </div>
+</div> 

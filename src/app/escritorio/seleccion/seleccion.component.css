@@ -1,21 +1,37 @@
 .seleccion {
-    padding: 10px 10%;  
+  padding: 5px 10%;
+  text-align: center;
+  width: 100vw;
+  box-sizing: border-box;
 }
 
- 
+.seleccion-item {
+}
 
-.lista ,.sel{
+.lista-items {
+  justify-content: right;
+  width: 80%;
+}
+
+.lista,
+.sel {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 5px;
 }
 
-.sel{
-    border-right: 4px solid #f0f0f0;
+.sel {
+  border-right: 4px solid #f0f0f0;
+  width: 20%;
 }
 
+.lista > img {
+  margin-right: 5px;
+}
 
-.lista>img{
-    margin-right: 5px;
+@media (max-width: 700px){
+  .seleccion {
+    display: none;
+  }
 }

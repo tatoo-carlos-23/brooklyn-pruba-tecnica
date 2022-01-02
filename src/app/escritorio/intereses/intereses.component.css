@@ -1,0 +1,49 @@
+.intereses {
+  overflow-x: scroll;
+}
+
+.tpi {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.item-interes {
+  margin-right: 10px;
+  box-sizing: border-box !important;
+}
+
+.item-interes > label {
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .itm-itrs {
+    display: inline-grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 4px;
+  }
+
+  .item-interes > label {
+    margin-top: 14px;
+    font-weight: bold;
+  }
+
+  .item-interes > img {
+    margin-right: 0;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box !important;
+  }
+
+  .tpi {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px 0;
+  }
+}

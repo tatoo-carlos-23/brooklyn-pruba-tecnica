@@ -1,1 +1,11 @@
-<p>soporte works!</p>
+<div class="soporte w-100 ">
+    <div class="fila w-100">
+        <div class="centro fila items-soporte" *ngFor="let x of DATOS">
+            <img src="../../../assets/img/{{x.ruta}}" alt="" class="is-img">
+            <section class="is-datos columna">
+                <label>{{x.titulo}}</label>
+                <label>{{x.subtitulo}}</label>
+            </section>
+        </div>
+    </div>
+</div>
